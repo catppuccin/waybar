@@ -1,14 +1,14 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://github.com/catppuccin/waybar">Waybar</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/waybar/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/waybar?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/waybar/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/waybar/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -17,19 +17,19 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+1. Download the file with your desired flavour e.g. `mocha.css` (to be found in the [release](https://github.com/catppuccin/waybar/releases/latest) or after cloning the repository)
+2. Copy it into your waybar config e.g. `~/.config/waybar/`
+3. Include the file at the top of your `style.css`
+   - `@import "$HOME/.config/waybar/colors.css";` 
+4. When setting colors, use `@COLOR` e.g. `@base`
 
 ## 🙋 FAQ (optional)
 
--	Q: **_"Where can I find the doc?"_**
-	A: Run `:help theme`
-
+-	Q: **_"Waybar doesn't work with the colors"_**
+	A: Make sure you included the file in the right place and you are using `@COLOR`
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [rubyowo](https://github.com/rubyowo)
 
 &nbsp;
 
