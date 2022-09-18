@@ -1,0 +1,26 @@
+# A catppuccin RC for waybar. In beta, specs may change.
+app_name: waybar
+binary_name: waybar 
+installation:
+  location:
+    macos: %appdata%/waybar/
+    linux: %appdata%/waybar/
+  flavours:
+    all:
+      default:
+        - themes/
+    latte:
+      default:
+        - themes/latte.css
+    frappe:
+      default:
+        - themes/frappe.css
+    macchiato:
+      default:
+        - themes/macchiato.css
+    mocha:
+      default:
+        - themes/mocha.css
+  to: ./
+  one_flavour: false
+  comments: "Add `@import \"$HOME/.config/waybar/<flavour>.css\";` to include the file in your style.css"
