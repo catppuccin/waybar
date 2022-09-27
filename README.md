@@ -20,7 +20,7 @@
 1. Download the file with your desired flavour e.g. `mocha.css` (to be found in the [release](https://github.com/catppuccin/waybar/releases/latest) or after cloning the repository)
 2. Copy it into your waybar config e.g. `~/.config/waybar/`
 3. Include the file at the top of your `style.css`
-   - `@import "$HOME/.config/waybar/<flavour>.css";` 
+   - `@import "<flavour>.css";` 
 4. When setting colors, use `@COLOR` e.g. `@base`
 
 ## 🙋 FAQ (optional)
