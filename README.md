@@ -25,7 +25,7 @@
 
 ## 🙋 FAQ (optional)
 
--	Q: **_"Waybar doesn't work with the colors"_**
+-	Q: **_"Waybar doesn't work with the colors"_**\
 	A: Make sure you included the file in the right place and you are using `@COLOR`
 ## 💝 Thanks to
 
