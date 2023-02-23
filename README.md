@@ -42,7 +42,7 @@
    - `@import "<flavour>.css";` 
 4. When setting colors, use `@COLOR` e.g. `@base`
 
-## 🙋 FAQ (optional)
+## 🙋 FAQ
 
 -	Q: **_"Waybar doesn't work with the colors"_**\
 	A: Make sure you included the file in the right place and you are using `@COLOR`
