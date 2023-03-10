@@ -36,11 +36,25 @@
 
 ## Usage
 
-1. Download the file with your desired flavour e.g. `mocha.css` (to be found in the [release](https://github.com/catppuccin/waybar/releases/latest) or after cloning the repository)
+1. Download the file with your desired flavor e.g. `mocha.css` (to be found in the [release](https://github.com/catppuccin/waybar/releases/latest) or after cloning the repository)
 2. Copy it into your waybar config e.g. `~/.config/waybar/`
 3. Include the file at the top of your `style.css`
-   - `@import "<flavour>.css";` 
-4. When setting colors, use `@COLOR` e.g. `@base`
+   ```css 
+   @import "<flavor>.css";
+   ```
+4. Use the colors in your Waybar `style.css`. Waybar uses [GTK3 CSS](https://docs.gtk.org/gtk3/css-overview.html#colors).
+   ```css
+   * {
+     /* reference the color by using @color-name */
+     color: @text;
+   }
+  
+   window#waybar {
+     /* you can also GTK3 CSS functions! */
+     background-color: shade(@base, 0.9);
+     border: 2px solid alpha(@crust, 0.3);
+   }
+   ```
 
 ## 🙋 FAQ
 
