@@ -1,0 +1,11 @@
+---
+whiskers:
+    version: "2.0.0"
+    matrix:
+        - flavor
+    filename: "themes/{{flavor.identifier}}.css"
+---
+
+{%- for name, color in flavor.colors -%}
+@define-color {{ name }} #{{ color.hex }};
+{% endfor %}
