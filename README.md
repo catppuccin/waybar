@@ -61,7 +61,7 @@
 -	Q: **_"Waybar doesn't work with the colors"_**\
 	A: Make sure you included the file in the right place and you are using `@COLOR`
 - Q: **_Hey! Can I borrow that bar config?_**\
-- A: Sure, here's [the waybar config](https://github.com/rubyowo/dotfiles/tree/main/config/waybar) in the preview image.
+  A: Sure, here's [the waybar config](https://github.com/rubyowo/dotfiles/tree/main/config/waybar) in the preview image.
 ## 💝 Thanks to
 
 - [rubyowo](https://github.com/rubyowo)
