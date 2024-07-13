@@ -60,6 +60,8 @@
 
 -	Q: **_"Waybar doesn't work with the colors"_**\
 	A: Make sure you included the file in the right place and you are using `@COLOR`
+- Q: **_"How can I make the bar look like the preview image?"_**\
+  A: Here's [the waybar config](https://github.com/rubyowo/dotfiles/tree/f925cf8e3461420a21b6dc8b8ad1190107b0cc56/config/waybar) for the preview image.
 ## 💝 Thanks to
 
 - [rubyowo](https://github.com/rubyowo)
